@@ -1,5 +1,5 @@
 <?php
-namespace PersistRelatedData\Model\Behavior;
+namespace Persist\Model\Behavior;
 
 use Cake\ORM\Behavior;
 use Cake\Datasource\EntityInterface;
