@@ -1,5 +1,5 @@
 {
-    "name": "riesenia/persist-related-data",
+    "name": "lechpat/cake-persist",
     "description": "CakePHP ORM plugin for persisting selected fields of related tables",
     "keywords": ["cakephp", "orm", "related", "materialize"],
     "type": "cakephp-plugin",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PersistRelatedData\\": "src"
+            "Persist\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PersistRelatedData\\Test\\": "tests",
+            "Persist\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
